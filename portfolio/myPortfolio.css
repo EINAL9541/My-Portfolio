@@ -1,0 +1,676 @@
+
+#navbarSupportedContent>.btn:hover {
+    color: white !important;
+}
+
+#myPortfolio>p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#navbarSupportedContent>ul>li>a:hover {
+    color: #54B4D3 !important;
+}
+#navbarSupportedContent>ul>li>a.active {
+    color: #54B4D3 !important;
+}
+
+div.navbar-collapse {
+    flex-grow: 0;
+}
+
+@media screen and (min-width:992px) {
+    .grid1 {
+        width: 35%;
+        float: left;
+    }
+
+    .grid2 {
+        width: 65%;
+        float: left;
+    }
+}
+
+#section1 {
+    margin-top: 60px;
+    height: auto;
+    background-color:  #54B4D3;
+    display: grid;
+   grid-template-columns: 450px 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 20px;
+    align-items: center;
+}
+
+#name {
+    font-size: 50px;
+    font-weight: bold;
+    color:  #54B4D3;
+    text-shadow: -2px -2px 0 white, 2px -2px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    margin: 0;
+}
+
+#im {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+}
+
+#position {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#downloadButton {
+    font-size: 16px;
+    border: 1px solid white;
+    padding: 10px;
+    background-color:  #54B4D3;
+    border-radius: 20px;
+    color: white;
+    margin-top: 40px;
+}
+
+#downloadButton:hover {
+    color: black;
+    background-color: white;
+
+}
+
+
+
+#section2 {
+    font-size: 10vw;
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px -1px 0 #e7e7e7, 1px -1px 0 #e7e7e7, -1px 1px 0 #e7e7e7, 1px 1px 0 #e7e7e7;
+    text-align: center;
+    position: relative;
+    left: 0;
+    right: 0;
+    padding-top: 60px;
+}
+
+#aboutMe {
+    position: absolute;
+    font-size: 3vw;
+    color:  #54B4D3;
+    text-shadow: none;
+    left: 42%;
+    bottom: 24%;
+}
+
+#aboutMePhoto {
+    width: 95%;
+    height: auto;
+    margin-right: 50pxS;
+    margin: 0 auto;
+}
+
+#section3 {
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#aboutGrid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-between;
+    font-size: 15px;
+
+}
+
+.aboutSpan {
+    color: gray;
+}
+
+#aboutId {
+    font-size: 26px;
+}
+
+.hireMe {
+    border: 1px solid  #54B4D3;
+    color:  #54B4D3;
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 30px;
+   
+    font-size: 13px;
+    margin: 20px;
+}
+
+.hireMe:hover {
+    background-color:  #54B4D3;
+    color: white;
+}
+
+#section4,
+#section6,
+#section8,
+#section10,
+#section12,
+#section14,
+#section16 {
+    font-size: 10vw;
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px -1px 0 #e7e7e7, 1px -1px 0 #e7e7e7, -1px 1px 0 #e7e7e7, 1px 1px 0 #e7e7e7;
+    text-align: center;
+    position: relative;
+    left: 0;
+    right: 0;
+    padding-top: 60px;
+}
+
+#quality {
+    position: absolute;
+    font-size: 3vw;
+    color:  #54B4D3;
+    text-shadow: none;
+    left: 30%;
+    bottom: 20%;
+}
+
+.uni2 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.uni3 {
+    margin: 0;
+    line-height: 22px;
+}
+
+.uni {
+    margin: 0;
+    line-height: 22px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.uni4 {
+    margin: 0;
+}
+
+.uni5 {
+    position: relative;
+    border-left: 1px solid  #54B4D3;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 25px;
+}
+
+#section5 {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 45% 44%;
+    justify-content: space-between;
+}
+
+.dot {
+    color:  #54B4D3;
+    left: -8px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    row-gap: 135px;
+}
+
+small {
+    color: gray;
+}
+
+#skill {
+    position: absolute;
+    font-size: 3vw;
+    color:  #54B4D3;
+    text-shadow: none;
+    left: 43%;
+    bottom: 25%;
+}
+
+
+#skills {
+    color:  #54B4D3;
+    font-size: 25px;
+    padding: 5px;
+}
+
+#t {
+    padding: 10px;
+}
+
+#grid1 {
+    display: grid;
+    grid-template-columns: 90%;
+    height: 25px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+#green1 {
+    background-color: red;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+
+}
+
+#grid2 {
+    display: grid;
+    grid-template-columns: 100%;
+    height: 25px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+#green2 {
+    background-color: green;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+
+}
+
+#language {
+    color:  #54B4D3;
+    font-size: 25px;
+    padding: 5px;
+}
+
+#ttt {
+
+    padding: 10px;
+}
+
+#div2 {
+    padding: 10px;
+}
+
+
+#grid3 {
+    display: grid;
+    grid-template-columns: 50%;
+    height: 25px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+#green3 {
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+
+}
+
+#green4 {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+
+}
+
+#green5 {
+    background-color: orange;
+    border-radius: 10px;
+    color: white;
+
+}
+
+#green6 {
+    background-color: yellow;
+    border-radius: 10px;
+    color: white;
+
+}
+
+#skillGrid {
+    display: grid;
+    grid-template-columns: 46% 46%;
+    justify-content: space-between;
+    padding: 50px;
+    padding-top: 0;
+}
+
+#service {
+    position: absolute;
+    font-size: 3vw;
+    color:  #54B4D3;
+    text-shadow: none;
+    left: 42%;
+    bottom: 25%;
+}
+
+#icon {
+    color: white;
+    border-radius: 50%;
+    background-color:  #54B4D3;
+    padding: 13px;
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.readMore {
+    color:  #54B4D3;
+}
+
+.div3 {
+    text-align: center;
+}
+
+#section9 {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    row-gap: 30px;
+    margin-left: 20px;
+}
+
+#myPortfolio2 {
+    position: absolute;
+    font-size: 3vw;
+    color:  #54B4D3;
+    text-shadow: none;
+    left: 40%;
+    bottom:25%;
+}
+
+#flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.galleryButton{
+    color:  #54B4D3;
+    font-size: 15px;
+    border: 1px solid  #54B4D3;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.galleryButton:hover{
+    color: white;
+    background-color:  #54B4D3;
+}
+
+#galleryGrid{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    justify-content: space-around;
+    row-gap: 35px;
+  
+}
+
+.galleryPhoto{
+    width: 100%;
+    transition: transform 1s;
+   
+    
+}
+
+.galleryPhoto:hover{
+    transform: scale(1.1,1.2);
+
+}
+
+.div4{
+    overflow: hidden;
+}
+
+/* #clientSay {
+    position: absolute;
+    font-size: 3vw;
+    color:  #54B4D3;
+    text-shadow: none;
+    left: 40%;
+    bottom: 35%;
+}
+
+#section13{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#commentPhoto{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+#quote{
+    color:  #54B4D3;
+}
+
+#clientName,#professional{
+    margin: 0;
+} */
+
+#contactMe{
+    position: absolute;
+    font-size: 3vw;
+    color:  #54B4D3;
+    text-shadow: none;
+    left: 42%;
+    bottom: 25%;
+}
+
+#section15{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#flex3{
+    display: flex;
+    flex-direction: row;
+}
+
+.text2{
+    width: 100%;
+    margin: 10px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid  #54B4D3;
+    font-size: 16px;
+    padding-left: 15px ;
+}
+
+#subject{
+    width: 95%;
+    margin: 10px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid  #54B4D3;
+    font-size: 16px;
+    padding-left: 15px ;
+    
+}
+
+#textArea{
+    width: 94%;
+    margin: 10px;
+    height: 100px;
+    border-radius: 30px;
+    border: 1px solid  #54B4D3;
+    font-size: 16px;
+    padding: 15px ;
+}
+
+#submit{
+    margin: 10px auto;
+    padding: 10px 20px ;
+    width: 100px;
+    color:  #54B4D3;
+    background-color: white;
+    border: 1px solid  #54B4D3;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+#submit:hover{
+    color: white;
+    background-color:  #54B4D3;
+}
+
+#icon2,#icon3,#icon4,#icon5{
+    background-color: white;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 20px 10px
+}
+
+#icon2:hover,#icon3:hover,#icon4:hover,#icon5:hover{
+    background-color: #333333;
+}
+
+footer{
+    background-color:  #54B4D3;
+}
+
+.link2,.link3{
+    color: white;
+    
+}
+
+#flex5{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+}
+
+.link3{
+    margin: 0;
+}
+
+.link2{
+    text-decoration: none;
+}
+
+.link2:hover{
+    text-decoration: dashed;
+}
+
+footer{
+    text-align: center;
+   height: 100px;
+   padding: 50px;
+}
+
+*{
+    box-sizing: border-box;
+}
+@media  screen and (max-width:1100px){
+    #section3{
+        grid-template-columns: 95%;
+        justify-content: center;
+    }
+    
+    #aboutMePhoto{
+        width: 50%;
+    }
+
+    #section5{
+        grid-template-columns: 95%;
+    }
+
+    #galleryGrid{
+        grid-template-columns: 45% 45%;
+    }
+
+    #section15{
+        width: 95%;
+    }
+
+    #section9{
+        grid-template-columns: 45% 45%;
+    }
+
+    #skillGrid{
+        grid-template-columns: 95%;
+    }
+
+    #section1{
+        grid-template-columns: 95%;
+        text-align: center;
+    }
+
+    #profilePicture{
+        margin: 0 auto;
+    }
+
+    #tempo{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:500px){
+    header{
+        height: 100px;
+    }
+
+    #section1{
+        width: 100%;
+        text-align: center;
+    }
+
+    #section9{
+        grid-template-columns: 95% ;
+    }
+
+    footer{
+        height: 250px;
+    }
+
+
+    #profilePicture{
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+    }
+
+    #aboutMe,#quality,#skill,#service,#myPortfolio2,#clientSay,#contactMe{
+        bottom: 15%;
+    }
+
+    #galleryGrid{
+        grid-template-columns: 95%;
+    }
+
+    #name{
+        font-size: 24px;
+    }
+
+    #position{
+        font-size: 20px;
+    }
+    }
+
+
+    
+    
+

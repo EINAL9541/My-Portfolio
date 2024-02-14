@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="myPortfolio.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b440f051d3.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="navbar" data-bs-offset="50">
+
+
+  <nav id="tt" class="navbar navbar-expand-lg bg-light fixed-top">
+    <div class="container-fluid">
+      <div id="myPortfolio" class="navbar-brand d-flex justify-content-start grid1">
+        <p class="text-info h3 me-2 mb-0">My</p>
+        <p class="text-warning h3 mb-0">Portfolio</p>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse grid2" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link  link-warning" arioa-current="page" href="#tt">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  link-warning" href="#aboutMe">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  link-warning" href="#quality">Quality</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  link-warning" href="#">Skill</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  link-warning" href="">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  link-warning" href="">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  link-warning" href="">Contact</a>
+          </li>
+
+        </ul>
+        <button class="btn btn-outline-info" type="submit">Search</button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="section1">
+      <img id="profilePicture" class="rounded-circle"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV6n9DSnX7SLIUvvqAqhT1QxQMViW3MlvPgQ&usqp=CAU"
+        alt="Profile" width="400" height="400">
+      <div>
+        <p id="im">I'm</p>
+        <P id="name">AUNG PHONE MYINT</P>
+        <p id="position">Backend Developer</p>
+        <button type="button" id="downloadButton">Download CV</button>
+
+      </div>
+    </section>
+
+
+
+    <section id="section2">
+
+      ABOUT
+      <div id="aboutMe">ABOUT ME</div>
+
+    </section>
+
+    <section id="section3">
+      <img id="aboutMePhoto" src="data:image/jpeg;base64,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"
+        alt="about me photo">
+
+      <div>
+        <h1 id="aboutId">UI/UX Designer & Web Developer</h1>
+        <p class="aboutSpan lead">Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod.
+          Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum. Amet
+          dolor stet lorem diam dolor justo et dolor dolor dolor</p>
+        <div id="aboutGrid">
+
+          <p>Name:<span class="aboutSpan"> Aung Phone Myint</span></p>
+          <p>Birthday: <span class="aboutSpan"> 2 Febauary 2004</span></p>
+          <p>Degree: <span class="aboutSpan"> Master</span></p>
+          <p>Experience: <span class="aboutSpan"> 10 years</span></p>
+          <p>Phone: <span class="aboutSpan"> +959402499306</span></p>
+          <p>Email: <span class="aboutSpan"> mail@domain.com</span></p>
+          <p>Address: <span class="aboutSpan"> 123 Street, New York, USA</span></p>
+          <p>Freelance: <span class="aboutSpan"> Available</span> </p>
+        </div>
+
+        <div id="tempo">
+          <button class="hireMe">Hire Me</button>
+          <button class="hireMe">Learn More</button>
+        </div>
+
+
+      </div>
+    </section>
+
+    <section id="section4">
+      Quality
+      <div id="quality">EDUCATION & EXPERICENCE</div>
+    </section>
+
+    <section id="section5">
+      <div id="education">
+        <h1>My Education</h1>
+        <div class="uni2">
+          <div class="uni5">
+            <div class="dot">
+              <i class="fa-regular fa-circle-dot"></i>
+              <i class="fa-regular fa-circle-dot"></i>
+              <i class="fa-regular fa-circle-dot"></i>
+            </div>
+            <div>
+              <h1 class="uni3">Master in HTML</h1>
+              <p class="uni">Cambridge University | <small>2000 - 2050</small></p>
+              <p class="uni4">
+                Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos
+                ipsum
+                est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet
+                lorem diam
+              </p>
+            </div>
+
+            <div>
+              <h1 class="uni3">Master in HTML</h1>
+              <p class="uni">Cambridge University | <small>2000 - 2050</small></p>
+              <p class="uni4">
+                Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos
+                ipsum
+                est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet
+                lorem diam
+              </p>
+            </div>
+
+            <div>
+              <h1 class="uni3">Master in HTML</h1>
+              <p class="uni">Cambridge University | <small>2000 - 2050</small></p>
+              <p class="uni4">
+                Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos
+                ipsum
+                est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet
+                lorem diam
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div id="education">
+        <h1>My Experience</h1>
+        <div class="uni2">
+          <div class="uni5">
+            <div class="dot">
+              <i class="fa-regular fa-circle-dot"></i>
+              <i class="fa-regular fa-circle-dot"></i>
+              <i class="fa-regular fa-circle-dot"></i>
+            </div>
+            <div>
+              <h1 class="uni3">Master in HTML</h1>
+              <p class="uni">Cambridge University | <small>2000 - 2050</small></p>
+              <p class="uni4">
+                Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos
+                ipsum
+                est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet
+                lorem diam
+              </p>
+            </div>
+
+            <div>
+              <h1 class="uni3">Master in HTML</h1>
+              <p class="uni">Cambridge University | <small>2000 - 2050</small></p>
+              <p class="uni4">
+                Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos
+                ipsum
+                est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet
+                lorem diam
+              </p>
+            </div>
+
+            <div>
+              <h1 class="uni3">Master in HTML</h1>
+              <p class="uni">Cambridge University | <small>2000 - 2050</small></p>
+              <p class="uni4">
+                Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos
+                ipsum
+                est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet
+                lorem diam
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="section6">
+      SKILLS
+      <div id="skill">MY SKILLS</div>
+    </section>
+
+    <section id="section7">
+      <div id="skillGrid">
+        <div id="div2">
+          <div id="skills">
+            <i class="fa-solid fa-snowflake"></i>
+            Skills
+          </div>
+
+          <div>
+            <p>HTML/CSS</p>
+            <div id="grid1">
+              <div id="green1">90%</div>
+
+            </div>
+          </div>
+
+          <div>
+            <p>Mama Ko Cx Tae A Cx Myr</p>
+            <div id="grid2">
+              <div id="green2">100%</div>
+
+            </div>
+          </div>
+
+          <div>
+            <p> Java Specialist</p>
+            <div id="grid2">
+              <div id="green3">101%</div>
+
+            </div>
+          </div>
+        </div>
+
+        <div id="ttt">
+          <div id="language">
+            <i class="fa-solid fa-earth-americas"></i>
+            Languages
+          </div>
+
+          <div>
+            <p>Myanmar</p>
+            <div id="grid1">
+              <div id="green4"></div>
+
+            </div>
+          </div>
+
+          <div>
+            <p>English</p>
+            <div id="grid3">
+              <div id="green5"></div>
+
+            </div>
+          </div>
+
+          <div>
+            <p>Japon</p>
+            <div id="grid3">
+              <div id="green6"></div>
+
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+    </section>
+
+    <section id="section8">
+      SERVICE
+      <div id="service">MY SERVICE</div>
+    </section>
+
+    <section id="section9">
+      <div>
+        <div class="flex">
+          <i id="icon" class="fa-solid fa-desktop  fa-2x"></i>
+          <h1>Web Design</h1>
+        </div>
+        <div class="div3">
+          <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet
+            labore eirmod erat clita</p>
+          <a href="" class="readMore">Read More</a>
+        </div>
+
+      </div>
+
+      <div>
+        <div class="flex">
+          <i id="icon" class="fa-solid fa-desktop  fa-2x"></i>
+          <h1>Web Developement</h1>
+        </div>
+        <div class="div3">
+          <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet
+            labore eirmod erat clita</p>
+          <a href="" class="readMore">Read More</a>
+        </div>
+
+      </div>
+
+      <div>
+        <div class="flex">
+          <i id="icon" class="fa-solid fa-desktop  fa-2x"></i>
+          <h1>App Design</h1>
+        </div>
+        <div class="div3">
+          <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet
+            labore eirmod erat clita</p>
+          <a href="" class="readMore">Read More</a>
+        </div>
+
+      </div>
+
+      <div>
+        <div class="flex">
+          <i id="icon" class="fa-brands fa-apple  fa-2x"></i>
+          <h1>Android Design</h1>
+        </div>
+        <div class="div3">
+          <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet
+            labore
+            eirmod erat clita</p>
+          <a href="" class="readMore">Read More</a>
+        </div>
+
+      </div>
+
+      <div>
+        <div class="flex">
+          <i id="icon" class="fa-solid fa-desktop  fa-2x"></i>
+          <h1>SEO</h1>
+        </div>
+        <div class="div3">
+          <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet
+            labore eirmod erat clita</p>
+          <a href="" class="readMore">Read More</a>
+        </div>
+
+      </div>
+
+      <div>
+        <div class="flex">
+          <i id="icon" class="fa-solid fa-desktop  fa-2x"></i>
+          <h1>Web Design</h1>
+        </div>
+        <div class="div3">
+          <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet
+            labore eirmod erat clita</p>
+          <a href="" class="readMore">Read More</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="section10">
+      GALLERY
+      <div id="myPortfolio2">MY PORTFOLIO</div>
+    </section>
+
+    <section id="section11">
+      <div id="flex2">
+        <button class="galleryButton">All</button>
+        <button class="galleryButton">Design</button>
+        <button class="galleryButton">Developement</button>
+        <button class="galleryButton">Marketing</button>
+      </div>
+
+      <div id="galleryGrid">
+
+        <div class="div4">
+          <img class="galleryPhoto" src="/image/rdr.jpg" alt="pt">
+        </div>
+
+        <div class="div4">
+          <img class="galleryPhoto" src="/image/rdr.jpg" alt="pt">
+        </div>
+
+        <div class="div4">
+          <img class="galleryPhoto" src="/image/rdr.jpg" alt="pt">
+        </div>
+
+        <div class="div4">
+          <img class="galleryPhoto" src="/image/rdr.jpg" alt="pt">
+        </div>
+
+        <div class="div4">
+          <img class="galleryPhoto" src="/image/rdr.jpg" alt="pt">
+        </div>
+
+        <div class="div4">
+          <img class="galleryPhoto" src="/image/rdr.jpg" alt="pt">
+        </div>
+
+
+
+
+      </div>
+    </section>
+
+    <!-- <section id="section12">
+      REVIEW
+      <div id="clientSay">CLIENT SAY</div>
+    </section>
+
+    <section id="section13">
+      <i id="quote" class="fas fa-quote-left"></i>
+      <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore
+        eirmod erat clita Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est
+        amet labore
+        eirmod erat clita</p>
+      <img id="commentPhoto" src="image/3639.webp" alt="img">
+      <h2 id="clientName">Client Name</h2>
+      <p id="professional">Professional</p>
+    </section> -->
+
+    <section id="section14">
+      CONTACT
+      <div id="contactMe">CONTACT ME</div>
+    </section>
+
+    <section id="section15">
+      <div id="flex3">
+        <input type="text" class="text2" placeholder="Name">
+        <input type="Email" class="text2" placeholder="Email">
+      </div>
+      <input type="text" id="subject" placeholder="Subject">
+      <textarea id="textArea" cols="30" rows="10" placeholder="Message"></textarea>
+      <input type="submit" id="submit">
+    </section>
+
+  </main>
+
+  <footer>
+    <div id="flex4">
+      <i id="icon2" class="fa-brands fa-twitter fa-1x"></i>
+      <i id="icon3" class="fa-brands fa-facebook fa-1x"></i>
+      <i id="icon4" class="fa-brands fa-linkedin fa-1x"></i>
+      <i id="icon5" class="fa-brands fa-instagram fa-1x"></i>
+    </div>
+
+    <div id="flex5">
+      <a href="" class="link2">Privacy</a>
+      <p class="link3">|</p>
+      <a href="" class="link2">Terms</a>
+      <p class="link3">|</p>
+      <a href="" class="link2">FAQs</a>
+      <p class="link3">|</p>
+      <a href="" class="link2">Help</a>
+    </div>
+    <p style="color: white;">© Domain Name. All Rights Reserved. Designed by HTML Codex</p>
+  </footer>
+</body>
+
+</html>
